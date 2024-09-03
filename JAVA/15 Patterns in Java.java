@@ -1,10 +1,10 @@
-public class Main {
+public class Patterns {
     public static void main(String args[]){
 
         //Solid Rectangle
         System.out.println("Solid Rectangle");
-        for(int i=0;i<5;i++){
-            for(int j=0;j<8;j++){
+        for(int i=1;i<=4;i++){
+            for(int j=1;j<=5;j++){
                 System.out.print("*");
             }
             System.out.println();
@@ -50,7 +50,7 @@ public class Main {
         System.out.println();
 
         //Half Pyramid - 180"
-        System.out.println("Half Pyramid - 180Degree");
+        System.out.println("Half Pyramid - 180''");
         for(int i=1;i<=4;i++){
             for(int j=1;j<=4-i;j++){
                 System.out.print(" ");
