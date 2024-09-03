@@ -1,3 +1,5 @@
+//Program to Print the Sum of n Natural Numbers input by user
+
 import java.util.Scanner;
 
 public class Main {
